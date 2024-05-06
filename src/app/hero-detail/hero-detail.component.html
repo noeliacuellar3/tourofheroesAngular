@@ -1,0 +1,15 @@
+<div *ngIf="hero">
+  <h2>Detalles sobre: {{hero.name | uppercase}} </h2>
+  <div><span>id: </span>{{hero.id}}</div>
+  <div>
+    <label for="hero-name">Bander del país de: </label>
+    <input id="hero-name" [(ngModel)]="hero.name" placeholder="Hero name"/>
+  </div>
+  <!-- Mostrar la imagen del héroe -->
+  <div>
+    <h3>Bandera de: </h3>
+    <img [src]="hero.img" alt="{{hero.name}} Image">
+  </div>
+<div>
+  <button type="button" (click)="goBack()">Volver</button>
+</div>

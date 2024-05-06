@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+/* Application-wide Styles */
+h1 {
+  
+    color: rgb(6, 6, 6);
+    font-family: Georgia, serif;;
+    font-size: 250%;
+  }
+  h2, h3 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: #030303;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+  }
+  body {
+    margin: 2em;
+    background:rgb(176,196,222);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100vh;
+  }
+  body, input[type="text"], button {
+    color: #333;
+    font-family: Cambria, Georgia, serif;
+  }
+  button {
+    display: flex;
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  button:hover {
+    justify-content:center ;
+    background-color: black;
+    color: white;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #030303;
+    cursor: auto;
+  }
+  
+  /* everywhere else */
+  * {
+    font-family: Georgia, serif;
+  }
